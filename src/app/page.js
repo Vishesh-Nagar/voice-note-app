@@ -158,7 +158,7 @@ export default function Home() {
                     />
                 </div>
             )}
-            <p className="flex justify-center text-yellow-500 mt-5 text-3xl">
+            <p className="flex justify-center text-yellow-500 mt-5 text-5xl">
                 Babble
             </p>
             <div className="flex justify-center items-center w-screen h-screen">
@@ -186,8 +186,8 @@ export default function Home() {
                                 className="recording"
                                 style={{
                                     fontSize: "24px",
-                                    width: "150px",
-                                    height: "150px",
+                                    width: "250px",
+                                    height: "250px",
                                     borderRadius: "50%",
                                     backgroundColor: "#fff",
                                 }}
@@ -200,8 +200,8 @@ export default function Home() {
                                     className="resume"
                                     style={{
                                         fontSize: "24px",
-                                        width: "120px",
-                                        height: "120px",
+                                        width: "175px",
+                                        height: "175px",
                                         borderRadius: "50%",
                                         backgroundColor: "#f4a261",
                                         marginTop: "0vh",
@@ -220,8 +220,8 @@ export default function Home() {
                                 padding: "10px",
                                 borderRadius: "50%",
                                 marginTop: "100px",
-                                width: "60px",
-                                height: "60px",
+                                width: "100px",
+                                height: "100px",
                                 display: "flex",
                                 justifyContent: "center",
                                 alignItems: "center",
