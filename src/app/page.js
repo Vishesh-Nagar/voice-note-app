@@ -143,7 +143,7 @@ export default function Home() {
             {!isPaused && isRecording && (
                 <div className="absolute left-0 top-80 w-full z-0">
                     <Wavify
-                        fill="#ffff99"
+                        fill="#ffb684"
                         paused={false}
                         style={{ height: "600px" }}
                         options={{
@@ -168,7 +168,7 @@ export default function Home() {
                         className="button"
                         style={{ fontSize: "24px" }}
                     >
-                        Start
+                        Babble
                     </button>
                 )}
                 {countdown && (
@@ -203,7 +203,7 @@ export default function Home() {
                                         width: "175px",
                                         height: "175px",
                                         borderRadius: "50%",
-                                        backgroundColor: "#f4a261",
+                                        backgroundColor: "#ffb98a",
                                         marginTop: "0vh",
                                         marginRight: "0vh",
                                     }}
@@ -216,7 +216,7 @@ export default function Home() {
                             className="delete"
                             onClick={deleteRecordingAndReset}
                             style={{
-                                backgroundColor: "#cf2828",
+                                backgroundColor: "#ffffff", // white background
                                 padding: "10px",
                                 borderRadius: "50%",
                                 marginTop: "100px",
@@ -225,7 +225,7 @@ export default function Home() {
                                 display: "flex",
                                 justifyContent: "center",
                                 alignItems: "center",
-                                backgroundColor: "#ff7f7f",
+                                color: "#cf2828", // set icon color to red
                             }}
                         >
                             <MdDeleteOutline size={25} />

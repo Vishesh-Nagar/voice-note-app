@@ -16,8 +16,7 @@
 
 body {
     color: var(--foreground);
-    background: #2F4858;
-    ;
+    background: #2f4858;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -28,7 +27,7 @@ body {
     width: 200px;
     height: 200px;
     box-shadow: 0px 0px 100px -2px rgb(197, 177, 129);
-    color: rgb(254, 240, 52);
+    color: #ffb684;
 }
 
 .recording {
